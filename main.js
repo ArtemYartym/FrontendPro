@@ -1,11 +1,11 @@
 const promptNum = +prompt("set number from 100 to 999");
 
 if(isNaN(promptNum)){
-throw new Error("zalupa")
+throw new Error("zalupa 1")
 }
 
 if (promptNum < 100 || promptNum > 999){
-    throw new Error("zalupa")
+    throw new Error("zalupa 2")
 }
 
 const strNun = `${promptNum}`
